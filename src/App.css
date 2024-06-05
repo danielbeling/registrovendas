@@ -1,0 +1,139 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.login-container,
+.app-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 40%;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+.main-content {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-sale-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-reset-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.login-button,
+.logout-button,
+.add-button,
+.details-button,
+.reset-button,
+.save-button {
+  width: auto;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover,
+.logout-button:hover,
+.add-button:hover,
+.details-button:hover,
+.reset-button:hover,
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.sales-list-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sales-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.sales-item {
+  background: #f8f8f8;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: #cc0000;
+}
