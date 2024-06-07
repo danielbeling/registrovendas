@@ -11,8 +11,8 @@ const LoginCredentials = [
     senha: '123456'
   },
   {
-    email: 'daniel@daniel.com',
-    senha: '123456'
+    email: 'graciele@gmail.com',
+    senha: 'graciele'
   }
 ];
 
